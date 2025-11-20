@@ -1,0 +1,8 @@
+Node.js async patterns let us pick the right abstraction.
+
+Among the three methods—Callbacks, Promises, and Async/Await—the Async/Await method is the easiest and most efficient for modern JavaScript development. 
+Callbacks work but they become messy very quickly because you nest functions inside each other, which leads to “callback hell” and makes code hard to read, debug, and maintain. 
+Promises improved the situation by removing nested callbacks, but they still require
+.then() and .catch(), which can get long and less readable when you chain multiple asynchronous steps. 
+Async/Await is the best option because it reads like normal synchronous code, even though it is still asynchronous.
+ It is clean, short, and avoids callback nesting and long Promise chains. It also makes error handling much simpler with try/catch.
